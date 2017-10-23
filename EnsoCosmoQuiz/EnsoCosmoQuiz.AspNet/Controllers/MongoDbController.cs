@@ -1,13 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Threading.Tasks;
 using System.Web.Http;
+using EnsoCosmoQuiz.AspNet.Repository;
 
 namespace EnsoCosmoQuiz.AspNet.Controllers
 {
     public class MongoDbController : ApiController
     {
+        private MongoDbRepository _repository = new MongoDbRepository();
+        
+        [HttpGet]
+        public async Task<IHttpActionResult> GetNumberOfProductionCompanies()
+        {
+            var result = await _repository.GetNumberOfProductionCompanies();
+            return Ok(result);
+        }
+        
     }
 }

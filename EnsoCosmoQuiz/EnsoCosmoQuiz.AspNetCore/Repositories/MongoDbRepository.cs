@@ -2,7 +2,7 @@
 using MongoDB.Bson;
 using MongoDB.Driver;
 
-namespace EnsoCosmoQuiz.AspNet.Repository
+namespace EnsoCosmoQuiz.AspNetCore.Repositories
 {
     public class MongoDbRepository
     {

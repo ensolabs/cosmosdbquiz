@@ -1,15 +1,16 @@
 ﻿using System.Threading.Tasks;
-using System.Web.Http;
-using EnsoCosmoQuiz.AspNet.Repository;
+using EnsoCosmoQuiz.AspNetCore.Repositories;
+using Microsoft.AspNetCore.Mvc;
 
-namespace EnsoCosmoQuiz.AspNet.Controllers
+namespace EnsoCosmoQuiz.AspNetCore.Controllers
 {
-    public class DocumentDbController : ApiController
+    public class DocumentDbController : Controller
     {
         readonly DocumentDbRepository _repository = new DocumentDbRepository();
+        
 
         [HttpGet]
-        public async Task<IHttpActionResult> GetNumberOfActorsInBladeRunner()
+        public async Task<IActionResult> GetNumberOfActorsInBladeRunner()
         {
             var result = await _repository.GetNumberOfActorsInBladeRunner();
             return Ok(result);

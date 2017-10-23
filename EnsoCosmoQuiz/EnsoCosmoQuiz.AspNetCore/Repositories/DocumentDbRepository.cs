@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using System.Web.Http;
 using Microsoft.Azure.Documents.Client;
 
-namespace EnsoCosmoQuiz.AspNet.Repository
+namespace EnsoCosmoQuiz.AspNetCore.Repositories
 {
     public class DocumentDbRepository
     {
@@ -12,7 +11,7 @@ namespace EnsoCosmoQuiz.AspNet.Repository
         public DocumentDbRepository()
         {
             _client = new DocumentClient(new Uri("[ENDPOINT]"), "[AUTH KEY]");
-         }
+        }
 
         public Task<int> GetNumberOfActorsInBladeRunner()
         {

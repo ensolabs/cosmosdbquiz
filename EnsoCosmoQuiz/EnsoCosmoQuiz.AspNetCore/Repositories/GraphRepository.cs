@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.Azure.Documents;
 using Microsoft.Azure.Documents.Client;
 
-namespace EnsoCosmoQuiz.AspNet.Repository
+namespace EnsoCosmoQuiz.AspNetCore.Repositories
 {
     public class GraphRepository
     {
@@ -15,7 +15,7 @@ namespace EnsoCosmoQuiz.AspNet.Repository
             _client = new DocumentClient(
                 new Uri("[ENDPOINT]"),
                 "[AUTH_KEY]", new ConnectionPolicy { ConnectionMode = ConnectionMode.Direct, ConnectionProtocol = Protocol.Tcp });
-            
+
         }
 
         private async Task Init()
