@@ -10,7 +10,7 @@ namespace EnsoCosmoQuiz.AspNetCore.Repositories
 
         public DocumentDbRepository()
         {
-            _client = new DocumentClient(new Uri("[ENDPOINT]"), "[AUTH KEY]");
+            //_client = new DocumentClient(new Uri("[ENDPOINT]"), "[AUTH KEY]");
         }
 
         public Task<int> GetNumberOfActorsInBladeRunner()

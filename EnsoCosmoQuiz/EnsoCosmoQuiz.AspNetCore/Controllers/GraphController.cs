@@ -4,12 +4,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EnsoCosmoQuiz.AspNetCore.Controllers
 {
+    [Route("[controller]")]
     public class GraphController : Controller
     {
         private GraphRepository _repository = new GraphRepository();
         
 
-        [HttpGet]
+        [HttpGet("task1")]
         public async Task<IActionResult> GetNumberOfActorsThatHaveActedInMoreThan1Movie()
         {
             var result = await _repository.GetNumberOfActorsThatHaveActedInMoreThan1Movie();
