@@ -1,3 +1,18 @@
+# Oppgaver
+### Graph DB: 
+- Finn ut hvor mange skuespillere (Actor) som har spilt i mer enn 1 film
+
+### DocumentDB: 
+- Finn ut hvor mange skuespillere som spilte i filmen "Blade Runner"
+
+### Mongo DB: 
+- Finn ut hvor mange produksjonsselskaper som finnes ("production_companies")
+
+### Table Storage
+- Finn ut hvor mange kvinnelige skuespillere som finnes
+
+
+
 # Beskrivelse av skjema for databaser: 
 
 ## Graphdb
