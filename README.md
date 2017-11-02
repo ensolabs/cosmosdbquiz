@@ -5,50 +5,50 @@
 
 ```javascript
 {
-    "movie":{
-        "id": string,
-        "budget": int,
-        "imdb_Id": string,
-        "original_language": string,
-        "original_title": string,
-        "overview": string,
-        "popularity": double,
-        "releaseDate": DateTime,
-        "revenue": double,
-        "runtime": int,
-        "tagline": string,
-        "title": string,
-        "vote_average": double,
-        "vote_count": double
+    "Movie":{
+        "Id": string,
+        "Budget": int,
+        "Imdb_Id": string,
+        "Original_language": string,
+        "Original_title": string,
+        "Overview": string,
+        "Popularity": double,
+        "ReleaseDate": DateTime,
+        "Revenue": double,
+        "Runtime": int,
+        "Tagline": string,
+        "Title": string,
+        "Vote_average": double,
+        "Vote_count": double
     }
 }
 
 {
-    "language":{
-        "id": string,
-        "name": string
+    "Language":{
+        "Id": string,
+        "Name": string
     }
 }
 
 {
-    "actor":{
-        "id": string,
-        "gender": int, // 1= kvinne 2= mann
-        "name": string
+    "Actor":{
+        "Id": string,
+        "Gender": int, // 1= kvinne 2= mann
+        "Name": string
     }
 }
 
 {
-    "genre":{
-        "id": string,
-        "name": string
+    "Genre":{
+        "Id": string,
+        "Name": string
     }
 }
 
 {
-    "productionCompany": {
-        "id": string,
-        "name": string
+    "ProductionCompany": {
+        "Id": string,
+        "Name": string
     }
 }
 ```
