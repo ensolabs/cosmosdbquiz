@@ -9,6 +9,7 @@ namespace EnsoCosmoQuiz.AspNet.Controllers
         private readonly TableStorageRepository _repository = new TableStorageRepository();
         
         [HttpGet]
+        [ActionName("task1")]
         public async Task<IHttpActionResult> GetPercentageOfFemaleActresses()
         {
             var result = await _repository.GetPercentageOfFemaleActresses();

@@ -12,9 +12,9 @@ namespace EnsoCosmoQuiz.AspNet.Repository
 
         public GraphRepository()
         {
-            _client = new DocumentClient(
-                new Uri("[ENDPOINT]"),
-                "[AUTH_KEY]", new ConnectionPolicy { ConnectionMode = ConnectionMode.Direct, ConnectionProtocol = Protocol.Tcp });
+            //_client = new DocumentClient(
+            //    new Uri("[ENDPOINT]"),
+            //    "[AUTH_KEY]", new ConnectionPolicy { ConnectionMode = ConnectionMode.Direct, ConnectionProtocol = Protocol.Tcp });
             
         }
 
@@ -26,9 +26,9 @@ namespace EnsoCosmoQuiz.AspNet.Repository
 
         public async Task<int> GetNumberOfActorsThatHaveActedInMoreThan1Movie()
         {
-            await Init();
+            //await Init();
             // Le code
-            return 0;
+            return await Task.FromResult(0);
         }
     }
 }

@@ -12,9 +12,9 @@ namespace EnsoCosmoQuiz.AspNet.Repository
 
         public MongoDbRepository()
         {
-            _mongoClient = new MongoClient("[CONNECTION_STRING]");
-            _mongoDb = _mongoClient.GetDatabase("[DATABASE]");
-            _mongoDbCollection = _mongoDb.GetCollection<BsonDocument>("[COLLECTION]");
+            //_mongoClient = new MongoClient("[CONNECTION_STRING]");
+            //_mongoDb = _mongoClient.GetDatabase("[DATABASE]");
+            //_mongoDbCollection = _mongoDb.GetCollection<BsonDocument>("[COLLECTION]");
         }
 
         public Task<int> GetNumberOfProductionCompanies()

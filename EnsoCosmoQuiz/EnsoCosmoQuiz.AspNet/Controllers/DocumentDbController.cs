@@ -9,6 +9,7 @@ namespace EnsoCosmoQuiz.AspNet.Controllers
         readonly DocumentDbRepository _repository = new DocumentDbRepository();
 
         [HttpGet]
+        [ActionName("task1")]
         public async Task<IHttpActionResult> GetNumberOfActorsInBladeRunner()
         {
             var result = await _repository.GetNumberOfActorsInBladeRunner();

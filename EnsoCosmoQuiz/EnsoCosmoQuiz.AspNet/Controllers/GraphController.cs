@@ -9,6 +9,7 @@ namespace EnsoCosmoQuiz.AspNet.Controllers
         private readonly GraphRepository _repository = new GraphRepository();
         
         [HttpGet]
+        [ActionName("task1")]
         public async Task<IHttpActionResult> GetNumberOfActorsThatHaveActedInMoreThan1Movie()
         {
             var result = await _repository.GetNumberOfActorsThatHaveActedInMoreThan1Movie();

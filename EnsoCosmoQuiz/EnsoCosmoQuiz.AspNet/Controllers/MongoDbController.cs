@@ -9,6 +9,7 @@ namespace EnsoCosmoQuiz.AspNet.Controllers
         private MongoDbRepository _repository = new MongoDbRepository();
         
         [HttpGet]
+        [ActionName("task1")]
         public async Task<IHttpActionResult> GetNumberOfProductionCompanies()
         {
             var result = await _repository.GetNumberOfProductionCompanies();

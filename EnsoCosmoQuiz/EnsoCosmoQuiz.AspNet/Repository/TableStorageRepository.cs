@@ -10,9 +10,9 @@ namespace EnsoCosmoQuiz.AspNet.Repository
 
         public TableStorageRepository()
         {
-            var cloudStorageAccount = CloudStorageAccount.Parse("[CONNECTION_SRING]");
-            var tableClient = cloudStorageAccount.CreateCloudTableClient();
-            _table = tableClient.GetTableReference("[TABLE_NAME]");
+            //var cloudStorageAccount = CloudStorageAccount.Parse("[CONNECTION_SRING]");
+            //var tableClient = cloudStorageAccount.CreateCloudTableClient();
+            //_table = tableClient.GetTableReference("[TABLE_NAME]");
         }
 
         public Task<int> GetPercentageOfFemaleActresses()

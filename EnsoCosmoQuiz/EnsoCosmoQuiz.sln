@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnsoCosmoQuiz.AspNet", "EnsoCosmoQuiz.AspNet\EnsoCosmoQuiz.AspNet.csproj", "{A613D2FF-40BD-442D-9CAB-4847E350458E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnsoCosmoQuiz.AspNetCore", "EnsoCosmoQuiz.AspNetCore\EnsoCosmoQuiz.AspNetCore.csproj", "{406B40E2-465F-4ADB-8CA0-BA854AD51AA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnsoCosmoQuiz.AspNetCore", "EnsoCosmoQuiz.AspNetCore\EnsoCosmoQuiz.AspNetCore.csproj", "{406B40E2-465F-4ADB-8CA0-BA854AD51AA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
