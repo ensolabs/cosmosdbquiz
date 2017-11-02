@@ -15,6 +15,5 @@ namespace EnsoCosmoQuiz.AspNet.Controllers
             var result = await _repository.GetNumberOfProductionCompanies();
             return Ok(result);
         }
-        
     }
 }
