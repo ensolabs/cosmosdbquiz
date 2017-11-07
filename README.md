@@ -6,7 +6,7 @@
 - Finn ut hvor mange skuespillere som spilte i filmen "Blade Runner"
 
 ### Mongo DB: 
-- Finn ut hvor mange produksjonsselskaper som finnes ("production_companies")
+- Finn antall stemmer som ble gitt for den filmen som har høyest rating
 
 ### Table Storage
 - Finn ut hvor mange kvinnelige skuespillere som finnes

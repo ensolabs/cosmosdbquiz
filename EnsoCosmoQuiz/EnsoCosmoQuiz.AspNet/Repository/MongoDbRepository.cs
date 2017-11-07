@@ -17,7 +17,7 @@ namespace EnsoCosmoQuiz.AspNet.Repository
             //_mongoDbCollection = _mongoDb.GetCollection<BsonDocument>("[COLLECTION]");
         }
 
-        public Task<int> GetNumberOfProductionCompanies()
+        public Task<int> GetVoteCountOfHighestRatedMovie()
         {
             // Le code
             return Task.FromResult(0);

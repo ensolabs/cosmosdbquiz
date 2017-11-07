@@ -14,7 +14,7 @@ namespace EnsoCosmoQuiz.AspNetCore.Controllers
         [HttpGet("task1")]
         public async Task<IActionResult> GetNumberOfProductionCompanies()
         {
-            var result = await _repository.GetNumberOfProductionCompanies();
+            var result = await _repository.GetVoteCountOfHighestRatedMovie();
             return Ok(result);
         }
     }
